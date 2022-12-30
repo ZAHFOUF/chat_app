@@ -24,6 +24,15 @@ io.on("connection",(socket)=>{
           socket.broadcast.emit("user-sended",e)
      })
 
+     socket.on("typing",(e)=>{
+          socket.broadcast.emit("typing")
+     })
+
+     socket.on("distyping",(e)=>{
+          socket.broadcast.emit("distyping")
+     })
+
+
 })
 
 
