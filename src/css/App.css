@@ -1,0 +1,48 @@
+.main{height: 100%;}
+.header{height: 10% !important;
+  box-shadow: rgb(0 0 0 / 20%) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;}
+.header img.icon {width: 48px;}
+.header span.context{font-size: 20px;
+  font-weight: 600;}
+.Mainchat{height: 81% !important; overflow-x: scroll !important;}
+.Inputmsg{height: 9% !important; border-top: 1px solid #000; display: flex;
+  align-items: center; }
+i.fa-arrow-circle-right{font-size: 18px !important;}
+.emojiInput {
+  font-size: 22px !important;
+  cursor: pointer;
+}
+.iconDiv{    width: 16% !important;
+  height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.inputDiv{width: 83% !important;}
+
+#root > div > div.Inputmsg > div.inputDiv > form > div > div{width: 80% !important;}
+#root > div > div.Inputmsg > div.inputDiv > form > div > button{border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;}
+.just-me{width: 46%;
+  padding: 3px;
+  margin: 14px;
+  margin-left: 50%;
+  color: white;
+  border-radius: 20px 0px 15px 20px;}
+.msg-of-me{margin: 8px 2px 2px 15px;
+  margin-bottom: 1rem; width: 90%;
+  overflow-wrap: anywhere;}
+.not-me{width: 45% !important;
+  margin: 15px;}
+.not-me p {font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 3px;}
+.not-me .msg-of-not-me {padding: 15px;
+  color: #000000;
+  border-radius: 2px 20px 20px 15px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px, rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+  overflow-wrap: anywhere;
+}
